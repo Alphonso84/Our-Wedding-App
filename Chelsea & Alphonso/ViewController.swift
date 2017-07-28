@@ -30,12 +30,26 @@ class ViewController: UIViewController {
         
         mainImage.image = #imageLiteral(resourceName: "ChelseaAlphonso")
         // Do any additional setup after loading the view, typically from a nib.
-        
         let timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(printTime), userInfo: nil, repeats: true)
         
         timer.fire()
         
             }
+
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        mainImage.center.x -= view.bounds.width
+        
+    }
+    //This animates the specified objects to there original position UIView.animate(withDuration:1)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        UIView.animate(withDuration: 2.5) {
+            self.mainImage.center.x += self.view.bounds.width
+        }
+
+    }
    
     func printTime() {
         formatter.dateFormat = "MM/dd/yy hh:mm:ss a"
@@ -47,11 +61,7 @@ class ViewController: UIViewController {
     }
 
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 
 
-}
 
