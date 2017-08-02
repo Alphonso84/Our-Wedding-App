@@ -9,13 +9,14 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var myWebView: UIWebView!
+    
+    @IBOutlet weak var buttonImage: UIButton!
 
-    @IBOutlet weak var dateLabelOutlet: UILabel!
+   @IBOutlet weak var dateLabelOutlet: UILabel!
     let formatter = DateFormatter()
-    
-    @IBOutlet weak var mainImage: UIImageView!
-    @IBOutlet weak var mainImage2: UIImageView!
-    
+      
     let userCalender = Calendar.current
     
     let requestedComponent : Set<Calendar.Component> = [
@@ -27,10 +28,11 @@ class ViewController: UIViewController {
     ]
     
     override func viewDidLoad() {
-        super.viewDidLoad()
-        mainImage2.image = #imageLiteral(resourceName: "ChelseaAlphonso2")
-        mainImage.image = #imageLiteral(resourceName: "ChelseaAlphonso")
+        
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        
         let timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(printTime), userInfo: nil, repeats: true)
         
         timer.fire()
@@ -38,23 +40,6 @@ class ViewController: UIViewController {
             }
 
 
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        mainImage.center.x -= view.bounds.width
-        mainImage2.center.x += view.bounds.width
-    }
-    
-    //This animates the specified objects to there original position UIView.animate(withDuration:1)
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
-        UIView.animate(withDuration: 8.5) {
-            self.mainImage.center.x += self.view.bounds.width
-        UIView.animate(withDuration: 8.5) {
-                self.mainImage2.center.x -= self.view.bounds.width
-            }
-
-    }
-    }
    
     func printTime() {
         formatter.dateFormat = "MM/dd/yy hh:mm:ss a"
@@ -64,9 +49,9 @@ class ViewController: UIViewController {
         
         dateLabelOutlet.text = "\(timeDifference.month!) Months \(timeDifference.day!) Days \(timeDifference.minute!) Min \(timeDifference.second!) Sec"
     }
+}
 
 
-    }
 
 
 
