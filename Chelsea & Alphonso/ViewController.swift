@@ -10,7 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var myWebView: UIWebView!
+   
+    
+    
+    
+    
+
+    
     
     @IBOutlet weak var buttonImage: UIButton!
 
@@ -29,8 +35,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         
-        // Do any additional setup after loading the view, typically from a nib.
-        
+       
         
         
         let timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(printTime), userInfo: nil, repeats: true)
