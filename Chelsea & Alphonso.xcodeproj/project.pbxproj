@@ -8,19 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		896DE36A1F239E0F00B95D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DE3691F239E0F00B95D2A /* AppDelegate.swift */; };
-		896DE36C1F239E0F00B95D2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DE36B1F239E0F00B95D2A /* ViewController.swift */; };
 		896DE36F1F239E0F00B95D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896DE36D1F239E0F00B95D2A /* Main.storyboard */; };
 		896DE3711F239E0F00B95D2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 896DE3701F239E0F00B95D2A /* Assets.xcassets */; };
-		896DE3741F239E0F00B95D2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896DE3721F239E0F00B95D2A /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		896DE3661F239E0F00B95D2A /* Chelsea & Alphonso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chelsea & Alphonso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896DE3691F239E0F00B95D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		896DE36B1F239E0F00B95D2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		896DE36E1F239E0F00B95D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		896DE3701F239E0F00B95D2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		896DE3731F239E0F00B95D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896DE3751F239E0F00B95D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -55,10 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				896DE3691F239E0F00B95D2A /* AppDelegate.swift */,
-				896DE36B1F239E0F00B95D2A /* ViewController.swift */,
 				896DE36D1F239E0F00B95D2A /* Main.storyboard */,
 				896DE3701F239E0F00B95D2A /* Assets.xcassets */,
-				896DE3721F239E0F00B95D2A /* LaunchScreen.storyboard */,
 				896DE3751F239E0F00B95D2A /* Info.plist */,
 			);
 			path = "Chelsea & Alphonso";
@@ -124,7 +118,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896DE3741F239E0F00B95D2A /* LaunchScreen.storyboard in Resources */,
 				896DE3711F239E0F00B95D2A /* Assets.xcassets in Resources */,
 				896DE36F1F239E0F00B95D2A /* Main.storyboard in Resources */,
 			);
@@ -137,7 +130,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896DE36C1F239E0F00B95D2A /* ViewController.swift in Sources */,
 				896DE36A1F239E0F00B95D2A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +143,6 @@
 				896DE36E1F239E0F00B95D2A /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		896DE3721F239E0F00B95D2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				896DE3731F239E0F00B95D2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -304,6 +288,7 @@
 				896DE37A1F239E0F00B95D2A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
