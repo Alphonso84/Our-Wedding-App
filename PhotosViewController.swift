@@ -17,7 +17,7 @@ class PhotosViewController: UICollectionViewController {
     //Images for photos section
     let array: [String] = ["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19","20","21","22","23","24","25","26","27","28","29","30","31","32","33","34","35","36","37","38","39","40","41","42","43","44","45"]
 
-  
+  //CollectionView Outlet allows me to program collection view
     @IBOutlet var myCollectionView: UICollectionView!
     
     private let reuseIdentifier = "Cell"
@@ -29,31 +29,28 @@ class PhotosViewController: UICollectionViewController {
         layout.sectionInset = UIEdgeInsetsMake(20, 0, 10, 0)
         layout.itemSize = CGSize(width: itemSize, height: itemSize)
         
-       layout.minimumInteritemSpacing = 3
+        layout.minimumInteritemSpacing = 3
         layout.minimumLineSpacing = 3
         
         myCollectionView.collectionViewLayout = layout
     }
     
-
+    //Number of Sections in CollectionView
     override func numberOfSections(in collectionView: UICollectionView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
+        
         return 1
     }
 
-
+    //Number of items in CollectionView set to number of items in Array
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of items
+        
         return array.count
     }
-
+    //Telling prototype cell what to display
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! MyCollectionViewCell
         
         cell.myImageView.image = UIImage(named: array[indexPath.row] + ".jpg")
-          
-    
-        // Configure the cell
     
         return cell
     }
