@@ -45,7 +45,7 @@ class ViewController: UIViewController {
             }
 
 
-   
+   // Timer customization
     func printTime() {
         formatter.dateFormat = "MM/dd/yy hh:mm:ss a"
         let startTime = Date()

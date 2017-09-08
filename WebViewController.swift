@@ -17,17 +17,10 @@ class WebViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
         let url = URL(string:"https://fonzman1984.wixsite.com/mysite")
         myWebView.loadRequest(URLRequest(url: url!))
     }
-    
-
-
-   
-//myWebView.loadRequest(URLRequest(url: url!))
-
-
 
 
 }

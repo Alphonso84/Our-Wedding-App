@@ -9,7 +9,7 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-
+//Outlets to connect buttons of Favorite view 
     @IBOutlet weak var websiteButton: UIButton!
    
     @IBOutlet weak var scheduleButton: UIButton!

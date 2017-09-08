@@ -78,6 +78,10 @@
 		89E39F1F1F5F52E6007DDD4E /* IMG_4566.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EE01F5F52E6007DDD4E /* IMG_4566.jpg */; };
 		89E39F201F5F52E6007DDD4E /* IMG_4622.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EE11F5F52E6007DDD4E /* IMG_4622.jpg */; };
 		89E39F211F5F52E6007DDD4E /* IMG_5424.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EE21F5F52E6007DDD4E /* IMG_5424.jpg */; };
+		89E39F261F6165BB007DDD4E /* upperleft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39F221F6165BB007DDD4E /* upperleft.jpg */; };
+		89E39F271F6165BB007DDD4E /* upperRight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39F231F6165BB007DDD4E /* upperRight.jpg */; };
+		89E39F281F6165BB007DDD4E /* lowerRight.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39F241F6165BB007DDD4E /* lowerRight.jpg */; };
+		89E39F291F6165BB007DDD4E /* lowerLeft.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39F251F6165BB007DDD4E /* lowerLeft.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +158,10 @@
 		89E39EE01F5F52E6007DDD4E /* IMG_4566.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4566.jpg; sourceTree = "<group>"; };
 		89E39EE11F5F52E6007DDD4E /* IMG_4622.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_4622.jpg; sourceTree = "<group>"; };
 		89E39EE21F5F52E6007DDD4E /* IMG_5424.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_5424.jpg; sourceTree = "<group>"; };
+		89E39F221F6165BB007DDD4E /* upperleft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = upperleft.jpg; sourceTree = "<group>"; };
+		89E39F231F6165BB007DDD4E /* upperRight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = upperRight.jpg; sourceTree = "<group>"; };
+		89E39F241F6165BB007DDD4E /* lowerRight.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lowerRight.jpg; sourceTree = "<group>"; };
+		89E39F251F6165BB007DDD4E /* lowerLeft.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lowerLeft.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +255,10 @@
 				89E39ECD1F5F52E6007DDD4E /* 42.jpg */,
 				89E39ECE1F5F52E6007DDD4E /* 43.jpg */,
 				89E39ECF1F5F52E6007DDD4E /* 44.jpg */,
+				89E39F221F6165BB007DDD4E /* upperleft.jpg */,
+				89E39F251F6165BB007DDD4E /* lowerLeft.jpg */,
+				89E39F231F6165BB007DDD4E /* upperRight.jpg */,
+				89E39F241F6165BB007DDD4E /* lowerRight.jpg */,
 				89E39ED01F5F52E6007DDD4E /* 45.jpg */,
 				89E39ED11F5F52E6007DDD4E /* IMG_2735.JPG */,
 				89E39ED21F5F52E6007DDD4E /* IMG_2764.jpg */,
@@ -331,6 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89E39F191F5F52E6007DDD4E /* 32.jpg in Resources */,
+				89E39F291F6165BB007DDD4E /* lowerLeft.jpg in Resources */,
 				89E39F081F5F52E6007DDD4E /* 38.jpg in Resources */,
 				89E39F001F5F52E6007DDD4E /* 9.jpg in Resources */,
 				89E39F1D1F5F52E6007DDD4E /* IMG_4293.JPG in Resources */,
@@ -347,6 +360,7 @@
 				89E39F141F5F52E6007DDD4E /* IMG_2860.JPG in Resources */,
 				896DE3741F239E0F00B95D2A /* LaunchScreen.storyboard in Resources */,
 				89E39EF01F5F52E6007DDD4E /* 21.jpg in Resources */,
+				89E39F261F6165BB007DDD4E /* upperleft.jpg in Resources */,
 				89E39F111F5F52E6007DDD4E /* IMG_2764.jpg in Resources */,
 				89E39EF41F5F52E6007DDD4E /* 25.jpg in Resources */,
 				89E39EE61F5F52E6007DDD4E /* 12.jpg in Resources */,
@@ -380,9 +394,11 @@
 				89E39EF91F5F52E6007DDD4E /* 3.jpg in Resources */,
 				89E39EE51F5F52E6007DDD4E /* 11.jpg in Resources */,
 				89E39F011F5F52E6007DDD4E /* 31.jpg in Resources */,
+				89E39F271F6165BB007DDD4E /* upperRight.jpg in Resources */,
 				89E39F091F5F52E6007DDD4E /* 39.jpg in Resources */,
 				89E39F151F5F52E6007DDD4E /* IMG_2942.jpg in Resources */,
 				89E39EEB1F5F52E6007DDD4E /* 17.jpg in Resources */,
+				89E39F281F6165BB007DDD4E /* lowerRight.jpg in Resources */,
 				89E39F1C1F5F52E6007DDD4E /* IMG_4261.jpg in Resources */,
 				89E39EF31F5F52E6007DDD4E /* 24.jpg in Resources */,
 				89E39EFD1F5F52E6007DDD4E /* 6.jpg in Resources */,
