@@ -27,9 +27,4 @@ detroitButton.imageView?.contentMode = .scaleAspectFit
         
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-       
-    }
-    
 }
