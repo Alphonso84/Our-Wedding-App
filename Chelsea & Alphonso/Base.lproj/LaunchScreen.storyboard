@@ -1,68 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
-            <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="d1V-wS-thk">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4-21-18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h4Y-g7-RHR">
-                                <rect key="frame" x="137" y="313" width="101" height="40"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="101" id="07g-cc-tcF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chelsea &amp; Alphonso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oRi-wK-1gn">
-                                <rect key="frame" x="31" y="225" width="313" height="41"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="41" id="AP9-9W-w0f"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="38"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="h4Y-g7-RHR" firstAttribute="centerX" secondItem="oRi-wK-1gn" secondAttribute="centerX" id="1ae-rc-Orr"/>
-                            <constraint firstAttribute="trailing" secondItem="d1V-wS-thk" secondAttribute="trailing" id="JFs-ep-sP3"/>
-                            <constraint firstItem="d1V-wS-thk" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="JXV-ly-MrC"/>
-                            <constraint firstItem="h4Y-g7-RHR" firstAttribute="centerX" secondItem="d1V-wS-thk" secondAttribute="centerX" id="PYY-cv-oZI"/>
-                            <constraint firstItem="h4Y-g7-RHR" firstAttribute="centerY" secondItem="d1V-wS-thk" secondAttribute="centerY" id="Pe8-nQ-RpG"/>
-                            <constraint firstItem="h4Y-g7-RHR" firstAttribute="top" secondItem="oRi-wK-1gn" secondAttribute="bottom" constant="47" id="dm6-ie-G5W"/>
-                            <constraint firstItem="oRi-wK-1gn" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="205" id="hAf-1D-vnS"/>
-                            <constraint firstItem="d1V-wS-thk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ifR-Iz-Rby"/>
-                            <constraint firstItem="d1V-wS-thk" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="jiD-CY-k8u"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="52" y="374.66266866566718"/>
-        </scene>
-    </scenes>
-    <resources>
-        <image name="Background" width="175" height="125"/>
-    </resources>
+    <scenes/>
 </document>

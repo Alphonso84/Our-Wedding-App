@@ -8,17 +8,9 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class MainViewController: UIViewController {
     
-   
-    
-    
-    
-    
-
-    
-    
-    @IBOutlet weak var buttonImage: UIButton!
+   @IBOutlet weak var buttonImage: UIButton!
 
    @IBOutlet weak var dateLabelOutlet: UILabel!
     let formatter = DateFormatter()

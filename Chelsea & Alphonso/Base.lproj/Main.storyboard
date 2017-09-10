@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="FeC-xK-fbY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="U4E-aI-oas">
     <device id="retina4_0" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -25,14 +25,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="TS3-59-1ym">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding Countdown" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvK-E3-dKl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wedding Countdown" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvK-E3-dKl">
                                 <rect key="frame" x="32" y="44" width="256" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="HM5-Vp-Ohb"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="29"/>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="ZFx-iM-1fK">
                                 <rect key="frame" x="16" y="275" width="288" height="184"/>
@@ -45,8 +46,10 @@
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RO1-QB-cHb">
                                 <rect key="frame" x="16" y="130" width="288" height="98"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,7 +123,7 @@
         <scene sceneID="FUZ-qq-saZ">
             <objects>
                 <collectionViewController title="PhotosViewController" id="hGE-IM-ZYI" customClass="PhotosViewController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="pak-SR-bXY">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="pak-SR-bXY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
@@ -297,6 +300,64 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0s5-qs-OUz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2428" y="-229"/>
+        </scene>
+        <!--Initial View-->
+        <scene sceneID="X0b-Cr-0eN">
+            <objects>
+                <viewController title="Initial View" id="U4E-aI-oas" customClass="InitialViewController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NER-Qp-hAf"/>
+                        <viewControllerLayoutGuide type="bottom" id="AJF-qO-ftp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5b4-d6-Cjl">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="s7Y-bj-OXp">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4-21-18" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HR7-4r-TEV">
+                                <rect key="frame" x="109.5" y="272" width="101" height="24.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="9kI-AI-3zj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chelsea &amp; Alphonso" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1g-xy-1X2">
+                                <rect key="frame" x="3.5" y="225" width="313" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Y0r-PJ-BVg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Bold" family="Snell Roundhand" pointSize="38"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="s7Y-bj-OXp" firstAttribute="leading" secondItem="5b4-d6-Cjl" secondAttribute="leading" id="0gd-sO-zQ3"/>
+                            <constraint firstAttribute="trailing" secondItem="s7Y-bj-OXp" secondAttribute="trailing" id="7Ry-j2-Tcg"/>
+                            <constraint firstItem="HR7-4r-TEV" firstAttribute="centerX" secondItem="5b4-d6-Cjl" secondAttribute="centerX" id="AOi-l5-B47"/>
+                            <constraint firstItem="s7Y-bj-OXp" firstAttribute="bottom" secondItem="AJF-qO-ftp" secondAttribute="top" id="Pgr-Ic-uft"/>
+                            <constraint firstItem="HR7-4r-TEV" firstAttribute="centerY" secondItem="s7Y-bj-OXp" secondAttribute="centerY" id="TBy-K9-qOn"/>
+                            <constraint firstItem="s7Y-bj-OXp" firstAttribute="top" secondItem="5b4-d6-Cjl" secondAttribute="top" id="TJw-A4-thx"/>
+                            <constraint firstItem="J1g-xy-1X2" firstAttribute="centerX" secondItem="5b4-d6-Cjl" secondAttribute="centerX" id="fUe-F3-e5v"/>
+                            <constraint firstItem="HR7-4r-TEV" firstAttribute="centerX" secondItem="s7Y-bj-OXp" secondAttribute="centerX" id="oIT-NN-OMX"/>
+                            <constraint firstItem="J1g-xy-1X2" firstAttribute="top" secondItem="NER-Qp-hAf" secondAttribute="bottom" constant="205" id="uS9-cX-XjP"/>
+                            <constraint firstItem="HR7-4r-TEV" firstAttribute="centerX" secondItem="J1g-xy-1X2" secondAttribute="centerX" id="uSh-Fn-Rgg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="FeC-xK-fbY" kind="show" identifier="initialSegue" id="x4z-Z2-khn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3rV-Se-GCt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3036" y="-972"/>
         </scene>
     </scenes>
     <resources>
