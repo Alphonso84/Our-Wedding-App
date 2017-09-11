@@ -207,8 +207,9 @@
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7iv-eI-faR">
                                                 <rect key="frame" x="128" y="0.0" width="128" height="138"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                                 <state key="normal" title="Website">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                         </subviews>
@@ -218,14 +219,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YxE-aQ-oET">
                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="182"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                                 <state key="normal" title="Schedule">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mvr-vc-q9A">
                                                 <rect key="frame" x="128" y="0.0" width="128" height="182"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                                 <state key="normal" title=" Music">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                         </subviews>
@@ -235,14 +238,16 @@
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHh-pe-kqU">
                                                 <rect key="frame" x="0.0" y="0.0" width="128" height="138"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                                 <state key="normal" title="Around Detroit">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SJI-zy-zF0">
                                                 <rect key="frame" x="128" y="0.0" width="128" height="138"/>
+                                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                                 <state key="normal" title="Venue">
-                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                         </subviews>
@@ -352,6 +357,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="NameLabel" destination="J1g-xy-1X2" id="hL3-bJ-YBE"/>
+                        <outlet property="dateLabel" destination="HR7-4r-TEV" id="HXz-nQ-fZT"/>
                         <segue destination="FeC-xK-fbY" kind="show" identifier="initialSegue" id="x4z-Z2-khn"/>
                     </connections>
                 </viewController>
