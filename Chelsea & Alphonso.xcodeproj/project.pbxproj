@@ -15,7 +15,7 @@
 		897A1A421F5D473C000EB227 /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897A1A411F5D473C000EB227 /* PhotosViewController.swift */; };
 		89B87E001F51A90700874AEB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B87DFF1F51A90700874AEB /* WebViewController.swift */; };
 		89B87E8E1F56F79B00874AEB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B87E8D1F56F79B00874AEB /* MenuViewController.swift */; };
-		89DAF4E21F7AF65C00E56C80 /* WeddingParty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4E11F7AF65C00E56C80 /* WeddingParty.swift */; };
+		89DAF4E21F7AF65C00E56C80 /* Wedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4E11F7AF65C00E56C80 /* Wedding.swift */; };
 		89E39EA21F5F51E2007DDD4E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E39EA11F5F51E2007DDD4E /* MyCollectionViewCell.swift */; };
 		89E39EE31F5F52E6007DDD4E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EA41F5F52E6007DDD4E /* 1.jpg */; };
 		89E39EE41F5F52E6007DDD4E /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EA51F5F52E6007DDD4E /* 10.jpg */; };
@@ -97,7 +97,7 @@
 		897A1A411F5D473C000EB227 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = ../PhotosViewController.swift; sourceTree = "<group>"; };
 		89B87DFF1F51A90700874AEB /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		89B87E8D1F56F79B00874AEB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
-		89DAF4E11F7AF65C00E56C80 /* WeddingParty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WeddingParty.swift; path = ../WeddingParty.swift; sourceTree = "<group>"; };
+		89DAF4E11F7AF65C00E56C80 /* Wedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Wedding.swift; path = ../Wedding.swift; sourceTree = "<group>"; };
 		89E39EA11F5F51E2007DDD4E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCollectionViewCell.swift; path = ../MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		89E39EA41F5F52E6007DDD4E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		89E39EA51F5F52E6007DDD4E /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
@@ -205,7 +205,7 @@
 				897A1A411F5D473C000EB227 /* PhotosViewController.swift */,
 				89B87E8D1F56F79B00874AEB /* MenuViewController.swift */,
 				89B87DFF1F51A90700874AEB /* WebViewController.swift */,
-				89DAF4E11F7AF65C00E56C80 /* WeddingParty.swift */,
+				89DAF4E11F7AF65C00E56C80 /* Wedding.swift */,
 				896DE36D1F239E0F00B95D2A /* Main.storyboard */,
 				896DE3701F239E0F00B95D2A /* Assets.xcassets */,
 				896DE3721F239E0F00B95D2A /* LaunchScreen.storyboard */,
@@ -434,7 +434,7 @@
 				896DE36A1F239E0F00B95D2A /* AppDelegate.swift in Sources */,
 				89B87E8E1F56F79B00874AEB /* MenuViewController.swift in Sources */,
 				897A1A421F5D473C000EB227 /* PhotosViewController.swift in Sources */,
-				89DAF4E21F7AF65C00E56C80 /* WeddingParty.swift in Sources */,
+				89DAF4E21F7AF65C00E56C80 /* Wedding.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
