@@ -10,7 +10,7 @@ import UIKit
 
 class MainViewController: UIViewController {
     
-   @IBOutlet weak var buttonImage: UIButton!
+
 
    @IBOutlet weak var dateLabelOutlet: UILabel!
     let formatter = DateFormatter()
