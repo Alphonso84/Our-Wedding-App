@@ -193,11 +193,44 @@
                     <connections>
                         <outlet property="myCollectionView" destination="pak-SR-bXY" id="jlK-Mc-e0r"/>
                         <outlet property="myCollectionViewOutlet" destination="pak-SR-bXY" id="TpA-IB-Q6r"/>
+                        <segue destination="baf-pI-eBM" kind="show" id="mSn-bA-fDQ"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tex-Vh-Clw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3999" y="673"/>
+        </scene>
+        <!--Photos Detail Controller-->
+        <scene sceneID="M9k-ST-g17">
+            <objects>
+                <viewController storyboardIdentifier="PhotosDetailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="baf-pI-eBM" customClass="PhotosDetailController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HON-DO-X2w"/>
+                        <viewControllerLayoutGuide type="bottom" id="NGN-ze-U2J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dWq-Gg-q8P">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IMX-RS-yMg">
+                                <rect key="frame" x="20" y="179" width="374" height="378"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="leading" secondItem="dWq-Gg-q8P" secondAttribute="leadingMargin" id="YET-K5-1Ap"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="centerY" secondItem="dWq-Gg-q8P" secondAttribute="centerY" id="Ymb-DN-cb2"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="top" secondItem="HON-DO-X2w" secondAttribute="bottom" constant="159" id="d34-1Z-5AT"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="trailing" secondItem="dWq-Gg-q8P" secondAttribute="trailingMargin" id="eZ1-EV-S5e"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myPhotos" destination="IMX-RS-yMg" id="Wrx-hv-EpU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Llm-SS-VN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4953.6231884057979" y="672.554347826087"/>
         </scene>
         <!--Our Favorites-->
         <scene sceneID="cOA-LQ-D3F">

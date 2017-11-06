@@ -17,7 +17,7 @@ struct friends {
         self.name = name
         self.job = job
         
-        }
+    }
 }
 
 
@@ -42,9 +42,7 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
         super.viewDidLoad()
         
         groomsMen = [ Aaron, Neville, Jonathan, Joseph, Len]
-        //Delegate and Datasource are set in StoryBoard
-        //tableView.delegate = self
-        //tableView.dataSource = self
+        
         
     }
     

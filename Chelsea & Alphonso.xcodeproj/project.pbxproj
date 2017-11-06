@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		89415F4F1F92F952008F9CAE /* PhotosDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89415F4E1F92F952008F9CAE /* PhotosDetailController.swift */; };
 		896DE36A1F239E0F00B95D2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DE3691F239E0F00B95D2A /* AppDelegate.swift */; };
 		896DE36C1F239E0F00B95D2A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 896DE36B1F239E0F00B95D2A /* MainViewController.swift */; };
 		896DE36F1F239E0F00B95D2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 896DE36D1F239E0F00B95D2A /* Main.storyboard */; };
@@ -84,6 +85,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		89415F4E1F92F952008F9CAE /* PhotosDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDetailController.swift; sourceTree = "<group>"; };
 		896DE3661F239E0F00B95D2A /* Chelsea & Alphonso.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chelsea & Alphonso.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		896DE3691F239E0F00B95D2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		896DE36B1F239E0F00B95D2A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				89E39EA11F5F51E2007DDD4E /* MyCollectionViewCell.swift */,
 				896DE36B1F239E0F00B95D2A /* MainViewController.swift */,
 				897A1A411F5D473C000EB227 /* PhotosViewController.swift */,
+				89415F4E1F92F952008F9CAE /* PhotosDetailController.swift */,
 				89B87E8D1F56F79B00874AEB /* MenuViewController.swift */,
 				89B87DFF1F51A90700874AEB /* WebViewController.swift */,
 				89DAF4E11F7AF65C00E56C80 /* Wedding.swift */,
@@ -419,6 +422,7 @@
 				89E39F2B1F649A48007DDD4E /* InitialViewController.swift in Sources */,
 				89B87E001F51A90700874AEB /* WebViewController.swift in Sources */,
 				89E39EA21F5F51E2007DDD4E /* MyCollectionViewCell.swift in Sources */,
+				89415F4F1F92F952008F9CAE /* PhotosDetailController.swift in Sources */,
 				896DE36A1F239E0F00B95D2A /* AppDelegate.swift in Sources */,
 				89B87E8E1F56F79B00874AEB /* MenuViewController.swift in Sources */,
 				897A1A421F5D473C000EB227 /* PhotosViewController.swift in Sources */,
