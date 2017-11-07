@@ -155,7 +155,7 @@
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <imageView key="backgroundView" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" id="fYu-yC-uod">
-                            <rect key="frame" x="0.0" y="-20" width="414" height="736"/>
+                            <rect key="frame" x="0.0" y="-64" width="414" height="736"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
                         <cells>
@@ -189,16 +189,15 @@
                             <outlet property="delegate" destination="hGE-IM-ZYI" id="RLb-tQ-i7a"/>
                         </connections>
                     </collectionView>
-                    <tabBarItem key="tabBarItem" title="Our Photos" image="Photos" id="q56-uM-Vmn"/>
+                    <navigationItem key="navigationItem" id="rw4-lX-UjM"/>
                     <connections>
                         <outlet property="myCollectionView" destination="pak-SR-bXY" id="jlK-Mc-e0r"/>
                         <outlet property="myCollectionViewOutlet" destination="pak-SR-bXY" id="TpA-IB-Q6r"/>
-                        <segue destination="baf-pI-eBM" kind="show" id="mSn-bA-fDQ"/>
                     </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tex-Vh-Clw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3999" y="673"/>
+            <point key="canvasLocation" x="4870" y="690"/>
         </scene>
         <!--Photos Detail Controller-->
         <scene sceneID="M9k-ST-g17">
@@ -213,15 +212,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="IMX-RS-yMg">
-                                <rect key="frame" x="20" y="179" width="374" height="378"/>
+                                <rect key="frame" x="20" y="87" width="374" height="562"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="IMX-RS-yMg" firstAttribute="leading" secondItem="dWq-Gg-q8P" secondAttribute="leadingMargin" id="YET-K5-1Ap"/>
-                            <constraint firstItem="IMX-RS-yMg" firstAttribute="centerY" secondItem="dWq-Gg-q8P" secondAttribute="centerY" id="Ymb-DN-cb2"/>
-                            <constraint firstItem="IMX-RS-yMg" firstAttribute="top" secondItem="HON-DO-X2w" secondAttribute="bottom" constant="159" id="d34-1Z-5AT"/>
-                            <constraint firstItem="IMX-RS-yMg" firstAttribute="trailing" secondItem="dWq-Gg-q8P" secondAttribute="trailingMargin" id="eZ1-EV-S5e"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="top" secondItem="HON-DO-X2w" secondAttribute="bottom" constant="67" id="Ard-06-11X"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="leading" secondItem="dWq-Gg-q8P" secondAttribute="leadingMargin" id="OLJ-Uv-UOF"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="trailing" secondItem="dWq-Gg-q8P" secondAttribute="trailingMargin" id="Ukf-vq-K6B"/>
+                            <constraint firstItem="IMX-RS-yMg" firstAttribute="centerY" secondItem="dWq-Gg-q8P" secondAttribute="centerY" id="bpc-XE-g6q"/>
                         </constraints>
                     </view>
                     <connections>
@@ -230,7 +229,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Llm-SS-VN4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4953.6231884057979" y="672.554347826087"/>
+            <point key="canvasLocation" x="4871" y="-65"/>
         </scene>
         <!--Our Favorites-->
         <scene sceneID="cOA-LQ-D3F">
@@ -426,7 +425,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="5Ao-Be-OkK"/>
                         <segue destination="WVD-UT-fcH" kind="relationship" relationship="viewControllers" id="EzF-xa-h9q"/>
                         <segue destination="klH-zK-6jb" kind="relationship" relationship="viewControllers" id="eTM-Ox-evr"/>
-                        <segue destination="hGE-IM-ZYI" kind="relationship" relationship="viewControllers" id="iLW-Zc-gGA"/>
+                        <segue destination="SWU-bY-TxW" kind="relationship" relationship="viewControllers" id="iLW-Zc-gGA"/>
                         <segue destination="1n8-6B-4pr" kind="relationship" relationship="viewControllers" id="3vP-pS-uEu"/>
                     </connections>
                 </tabBarController>
@@ -501,6 +500,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3rV-Se-GCt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3035.625" y="-972.88732394366195"/>
+        </scene>
+        <!--Our Photos-->
+        <scene sceneID="Dnf-DP-urm">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="SWU-bY-TxW" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Our Photos" image="Photos" id="q56-uM-Vmn"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Kao-BJ-L0Z">
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hGE-IM-ZYI" kind="relationship" relationship="rootViewController" id="zEW-SI-zeF"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bBA-Bd-lJO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3998.5507246376815" y="672.554347826087"/>
         </scene>
     </scenes>
     <resources>

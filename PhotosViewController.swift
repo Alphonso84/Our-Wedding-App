@@ -53,14 +53,20 @@ class PhotosViewController: UICollectionViewController {
     
         return cell
     }
+    
 
     
     override func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        var detailController = storyboard?.instantiateViewController(withIdentifier: "PhotosDetailController") as! PhotosDetailController
-       detailController.photo = UIImage(named: array[indexPath.row] + ".jpg")
-        
-        navigationController?.pushViewController(detailController, animated: true)
+        let detailController = storyboard?.instantiateViewController(withIdentifier: "PhotosDetailController") as! PhotosDetailController
+        detailController.photo = UIImage(named: array[indexPath.row] + ".jpg")
+        navigationController?.show(detailController, sender: collectionView)
         print(indexPath.row)
-        present(detailController, animated: true, completion: nil)
+        
     }
+//    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+//        let detailController = storyboard?.instantiateViewController(withIdentifier: "MemeDetailViewController") as! MemeDetailViewController
+//        detailController.meme = memes[indexPath.row]
+//        
+//        navigationController?.show(detailController, sender: collectionView)
+//    }
 }
