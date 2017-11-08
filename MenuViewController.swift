@@ -13,7 +13,7 @@ class MenuViewController: UIViewController {
     @IBOutlet weak var websiteButton: UIButton!
    
     @IBOutlet weak var scheduleButton: UIButton!
-    @IBOutlet weak var musicButton: UIButton!
+    
     @IBOutlet weak var detroitButton: UIButton!
     
     
@@ -22,7 +22,7 @@ class MenuViewController: UIViewController {
         websiteButton.imageView?.contentMode = .scaleAspectFit
         
 scheduleButton.imageView?.contentMode = .scaleAspectFit
-        musicButton.imageView?.contentMode = .scaleAspectFit
+       
 detroitButton.imageView?.contentMode = .scaleAspectFit
         
     }
