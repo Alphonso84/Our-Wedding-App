@@ -66,30 +66,26 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
-    let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")
+    let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)   //dequeueReusableCell(withIdentifier: "myCell")
     
     if sections.count == groomsMen.count {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")
-        cell?.textLabel?.text = groomsMen[indexPath.row].name
-        cell?.detailTextLabel?.text = groomsMen[indexPath.row].job
-        return cell!
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+        cell.textLabel?.text = groomsMen[indexPath.row].name
+        cell.detailTextLabel?.text = groomsMen[indexPath.row].job
+        return cell
     } else if
         sections.count == bridesMaids.count {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell")
-        cell?.textLabel?.text = bridesMaids[indexPath.row].name
+        let cell = tableView.dequeueReusableCell(withIdentifier: "myCell", for: indexPath)
+        cell.textLabel?.text = bridesMaids[indexPath.row].name
         
-        cell?.detailTextLabel?.text = bridesMaids[indexPath.row].job
-        return cell!
+        cell.detailTextLabel?.text = bridesMaids[indexPath.row].job
+        return cell
     
     }
-    return cell!
+    
+    return cell
     }
     
-    
-
-    
-    
-        
         func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
             switch (section) {
             case 0:
