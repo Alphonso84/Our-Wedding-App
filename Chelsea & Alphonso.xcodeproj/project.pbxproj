@@ -94,6 +94,20 @@
 		896DE3731F239E0F00B95D2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		896DE3751F239E0F00B95D2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		897A1A411F5D473C000EB227 /* PhotosViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosViewController.swift; path = ../PhotosViewController.swift; sourceTree = "<group>"; };
+		899606B61FB3B33700B2500D /* Aaron.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Aaron.JPG; sourceTree = "<group>"; };
+		899606B71FB3B33700B2500D /* Jonathan.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Jonathan.JPG; sourceTree = "<group>"; };
+		899606B81FB3B33700B2500D /* Joseph.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Joseph.JPG; sourceTree = "<group>"; };
+		899606B91FB3B33700B2500D /* Len.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Len.JPG; sourceTree = "<group>"; };
+		899606BA1FB3B33700B2500D /* Neville.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Neville.JPG; sourceTree = "<group>"; };
+		899606C61FB3BF4800B2500D /* Alecia.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Alecia.JPG; sourceTree = "<group>"; };
+		899606C71FB3BF4800B2500D /* Ashley.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ashley.JPG; sourceTree = "<group>"; };
+		899606C81FB3BF4800B2500D /* Blake.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Blake.JPG; sourceTree = "<group>"; };
+		899606C91FB3BF4800B2500D /* BrittneyC.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrittneyC.JPG; sourceTree = "<group>"; };
+		899606CA1FB3BF4800B2500D /* BrittneyR.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BrittneyR.JPG; sourceTree = "<group>"; };
+		899606CB1FB3BF4800B2500D /* Chereese.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Chereese.JPG; sourceTree = "<group>"; };
+		899606CC1FB3BF4800B2500D /* Danielle.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Danielle.JPG; sourceTree = "<group>"; };
+		899606CD1FB3BF4800B2500D /* Gena.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Gena.JPG; sourceTree = "<group>"; };
+		899606CE1FB3BF4800B2500D /* Kristy.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kristy.JPG; sourceTree = "<group>"; };
 		89B87DFF1F51A90700874AEB /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		89B87E8D1F56F79B00874AEB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		89DAF4E11F7AF65C00E56C80 /* Wedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Wedding.swift; path = ../Wedding.swift; sourceTree = "<group>"; };
@@ -207,9 +221,39 @@
 				896DE3701F239E0F00B95D2A /* Assets.xcassets */,
 				896DE3721F239E0F00B95D2A /* LaunchScreen.storyboard */,
 				896DE3751F239E0F00B95D2A /* Info.plist */,
+				899606C51FB3BF4800B2500D /* BridesMaids */,
+				899606B51FB3B33700B2500D /* GroomsMen */,
 				89E39EA31F5F52E6007DDD4E /* Favorite Photos */,
 			);
 			path = "Chelsea & Alphonso";
+			sourceTree = "<group>";
+		};
+		899606B51FB3B33700B2500D /* GroomsMen */ = {
+			isa = PBXGroup;
+			children = (
+				899606B61FB3B33700B2500D /* Aaron.JPG */,
+				899606B71FB3B33700B2500D /* Jonathan.JPG */,
+				899606B81FB3B33700B2500D /* Joseph.JPG */,
+				899606B91FB3B33700B2500D /* Len.JPG */,
+				899606BA1FB3B33700B2500D /* Neville.JPG */,
+			);
+			path = GroomsMen;
+			sourceTree = "<group>";
+		};
+		899606C51FB3BF4800B2500D /* BridesMaids */ = {
+			isa = PBXGroup;
+			children = (
+				899606C61FB3BF4800B2500D /* Alecia.JPG */,
+				899606C71FB3BF4800B2500D /* Ashley.JPG */,
+				899606C81FB3BF4800B2500D /* Blake.JPG */,
+				899606C91FB3BF4800B2500D /* BrittneyC.JPG */,
+				899606CA1FB3BF4800B2500D /* BrittneyR.JPG */,
+				899606CB1FB3BF4800B2500D /* Chereese.JPG */,
+				899606CC1FB3BF4800B2500D /* Danielle.JPG */,
+				899606CD1FB3BF4800B2500D /* Gena.JPG */,
+				899606CE1FB3BF4800B2500D /* Kristy.JPG */,
+			);
+			path = BridesMaids;
 			sourceTree = "<group>";
 		};
 		89E39EA31F5F52E6007DDD4E /* Favorite Photos */ = {
@@ -309,7 +353,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = Alphonso;
 				TargetAttributes = {
 					896DE3651F239E0F00B95D2A = {
@@ -462,7 +506,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -470,7 +516,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -513,7 +563,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -521,7 +573,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
