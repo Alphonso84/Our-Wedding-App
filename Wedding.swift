@@ -54,6 +54,8 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        tableView.delegate = self
+        tableView.dataSource = self
         
         groomsMen = [ Aaron, Neville, Jonathan, Joseph, Len]
         bridesMaids = [Gena, Chereese, Alecia, Kristy, Blake, Ashley, Danielle, Brittney_C, Brittney_R]
@@ -64,6 +66,10 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
     func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
        
         return sections[section]
+    }
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        return sections.count
     }
     
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -102,10 +108,14 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
             }
             
         }
-
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detailController = storyboard?.instantiateViewController(withIdentifier: "WeddingDetailController") as! WeddingDetailController
+        detailController.groomsMen = [groomsMen[indexPath.row]]
+        detailController.bridesMaids = [bridesMaids[indexPath.row]]
         
-        func numberOfSections(in tableView: UITableView) -> Int {
-            return sections.count
-        }
+        navigationController?.show(detailController, sender: Any?.self)
+        
+    }
+    
     
 }

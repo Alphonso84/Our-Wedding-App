@@ -368,6 +368,74 @@
             </objects>
             <point key="canvasLocation" x="2350.7246376811595" y="1475.5434782608697"/>
         </scene>
+        <!--Wedding Detail Controller-->
+        <scene sceneID="K7d-mX-3sh">
+            <objects>
+                <viewController id="RGc-f0-diN" customClass="WeddingDetailController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u25-eK-cpT"/>
+                        <viewControllerLayoutGuide type="bottom" id="AR9-WV-uxb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="EsH-Ef-ugh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JM2-dq-B2y">
+                                <rect key="frame" x="70" y="58" width="235" height="187"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fKP-4z-fQR">
+                                <rect key="frame" x="70" y="253" width="235" height="36"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-BT-Grh">
+                                <rect key="frame" x="146" y="317" width="83" height="33"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="SgM-T5-QdS"/>
+                                    <constraint firstAttribute="width" constant="83" id="Yls-Rs-WCH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PgR-69-kjj">
+                                <rect key="frame" x="70" y="380" width="235" height="267"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="fKP-4z-fQR" firstAttribute="centerX" secondItem="bRi-BT-Grh" secondAttribute="centerX" id="15g-EN-Dhk"/>
+                            <constraint firstItem="bRi-BT-Grh" firstAttribute="top" secondItem="fKP-4z-fQR" secondAttribute="bottom" constant="28" id="3hb-A6-a2K"/>
+                            <constraint firstAttribute="bottom" secondItem="PgR-69-kjj" secondAttribute="bottom" constant="20" symbolic="YES" id="AXo-l7-qNi"/>
+                            <constraint firstItem="fKP-4z-fQR" firstAttribute="trailing" secondItem="PgR-69-kjj" secondAttribute="trailing" id="ENa-bX-iJz"/>
+                            <constraint firstItem="fKP-4z-fQR" firstAttribute="trailing" secondItem="JM2-dq-B2y" secondAttribute="trailing" id="Fd0-70-tBi"/>
+                            <constraint firstItem="fKP-4z-fQR" firstAttribute="leading" secondItem="JM2-dq-B2y" secondAttribute="leading" id="LKt-am-bgl"/>
+                            <constraint firstItem="fKP-4z-fQR" firstAttribute="top" secondItem="JM2-dq-B2y" secondAttribute="bottom" constant="8" symbolic="YES" id="LhU-Df-pXV"/>
+                            <constraint firstItem="JM2-dq-B2y" firstAttribute="top" secondItem="u25-eK-cpT" secondAttribute="bottom" constant="38" id="PaG-jX-szv"/>
+                            <constraint firstItem="JM2-dq-B2y" firstAttribute="centerX" secondItem="EsH-Ef-ugh" secondAttribute="centerX" id="QrQ-f1-DgZ"/>
+                            <constraint firstItem="fKP-4z-fQR" firstAttribute="leading" secondItem="PgR-69-kjj" secondAttribute="leading" id="cJT-ns-bMq"/>
+                            <constraint firstItem="bRi-BT-Grh" firstAttribute="centerY" secondItem="EsH-Ef-ugh" secondAttribute="centerY" id="hch-MG-E7E"/>
+                            <constraint firstItem="JM2-dq-B2y" firstAttribute="leading" secondItem="EsH-Ef-ugh" secondAttribute="leadingMargin" constant="54" id="iNt-Gv-wRR"/>
+                            <constraint firstItem="AR9-WV-uxb" firstAttribute="top" secondItem="JM2-dq-B2y" secondAttribute="bottom" constant="422" id="nTL-Md-kET"/>
+                            <constraint firstItem="PgR-69-kjj" firstAttribute="top" secondItem="bRi-BT-Grh" secondAttribute="bottom" constant="30" id="oon-FJ-xZA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="detailImageView" destination="JM2-dq-B2y" id="iaD-mp-8cX"/>
+                        <outlet property="nameLabel" destination="fKP-4z-fQR" id="MIS-oI-Sz3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xM2-wf-SLz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1864.8" y="-1008.8455772113944"/>
+        </scene>
         <!--Wedding Party-->
         <scene sceneID="nbz-6G-OeS">
             <objects>
@@ -431,7 +499,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Awv-Wc-mMJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1696.8" y="-230.73463268365819"/>
+            <point key="canvasLocation" x="1865" y="-304"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tXB-Mv-OgF">
