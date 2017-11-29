@@ -63,14 +63,9 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
         
     }
     
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String?{
-       
-        return sections[section]
-    }
+   
     
-    func numberOfSections(in tableView: UITableView) -> Int {
-        return sections.count
-    }
+    
     
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
     
@@ -109,11 +104,9 @@ class Wedding: UIViewController, UITableViewDataSource, UITableViewDelegate{
             
         }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detailController = storyboard?.instantiateViewController(withIdentifier: "WeddingDetailController") as! WeddingDetailController
-        detailController.groomsMen = [groomsMen[indexPath.row]]
-        detailController.bridesMaids = [bridesMaids[indexPath.row]]
+        let detailController = WeddingDetailController.self as! UIViewController
         
-        navigationController?.show(detailController, sender: Any?.self)
+      showDetailViewController(detailController, sender: self)
         
     }
     

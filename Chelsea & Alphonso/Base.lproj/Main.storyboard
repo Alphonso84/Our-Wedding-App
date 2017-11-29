@@ -365,7 +365,7 @@
         <!--Wedding Detail Controller-->
         <scene sceneID="K7d-mX-3sh">
             <objects>
-                <viewController id="RGc-f0-diN" customClass="WeddingDetailController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="WeddingDetailController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="RGc-f0-diN" customClass="WeddingDetailController" customModule="Chelsea___Alphonso" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u25-eK-cpT"/>
                         <viewControllerLayoutGuide type="bottom" id="AR9-WV-uxb"/>
@@ -767,7 +767,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Hk-Ip-l8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2180" y="-291.00449775112446"/>
+            <point key="canvasLocation" x="2218" y="-304"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="tXB-Mv-OgF">
