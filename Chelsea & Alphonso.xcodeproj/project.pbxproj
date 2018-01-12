@@ -18,6 +18,8 @@
 		89B87E001F51A90700874AEB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B87DFF1F51A90700874AEB /* WebViewController.swift */; };
 		89B87E8E1F56F79B00874AEB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B87E8D1F56F79B00874AEB /* MenuViewController.swift */; };
 		89DAF4E21F7AF65C00E56C80 /* Wedding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89DAF4E11F7AF65C00E56C80 /* Wedding.swift */; };
+		89DDD9832008C9A200DC6C8C /* Fonz&Chels.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89DDD9822008C99F00DC6C8C /* Fonz&Chels.jpg */; };
+		89DDD9852008CA8000DC6C8C /* Sunrise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89DDD9842008CA7E00DC6C8C /* Sunrise.jpg */; };
 		89E39EA21F5F51E2007DDD4E /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E39EA11F5F51E2007DDD4E /* MyCollectionViewCell.swift */; };
 		89E39EE31F5F52E6007DDD4E /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EA41F5F52E6007DDD4E /* 1.jpg */; };
 		89E39EE41F5F52E6007DDD4E /* 10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 89E39EA51F5F52E6007DDD4E /* 10.jpg */; };
@@ -113,6 +115,8 @@
 		89B87DFF1F51A90700874AEB /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebViewController.swift; path = ../WebViewController.swift; sourceTree = "<group>"; };
 		89B87E8D1F56F79B00874AEB /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuViewController.swift; path = ../MenuViewController.swift; sourceTree = "<group>"; };
 		89DAF4E11F7AF65C00E56C80 /* Wedding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Wedding.swift; path = ../Wedding.swift; sourceTree = "<group>"; };
+		89DDD9822008C99F00DC6C8C /* Fonz&Chels.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Fonz&Chels.jpg"; sourceTree = "<group>"; };
+		89DDD9842008CA7E00DC6C8C /* Sunrise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Sunrise.jpg; sourceTree = "<group>"; };
 		89E39EA11F5F51E2007DDD4E /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyCollectionViewCell.swift; path = ../MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		89E39EA41F5F52E6007DDD4E /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 		89E39EA51F5F52E6007DDD4E /* 10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10.jpg; sourceTree = "<group>"; };
@@ -264,6 +268,7 @@
 			children = (
 				89E39EA41F5F52E6007DDD4E /* 1.jpg */,
 				89E39EA51F5F52E6007DDD4E /* 10.jpg */,
+				89DDD9842008CA7E00DC6C8C /* Sunrise.jpg */,
 				89E39EA61F5F52E6007DDD4E /* 11.jpg */,
 				89E39EA71F5F52E6007DDD4E /* 12.jpg */,
 				89E39EA81F5F52E6007DDD4E /* 13.jpg */,
@@ -320,6 +325,7 @@
 				89E39EDB1F5F52E6007DDD4E /* IMG_3796.JPG */,
 				89E39EDC1F5F52E6007DDD4E /* IMG_4249.jpg */,
 				89E39EDD1F5F52E6007DDD4E /* IMG_4261.jpg */,
+				89DDD9822008C99F00DC6C8C /* Fonz&Chels.jpg */,
 				89E39EDE1F5F52E6007DDD4E /* IMG_4293.JPG */,
 				89E39EDF1F5F52E6007DDD4E /* IMG_4526.jpg */,
 				89E39EE01F5F52E6007DDD4E /* IMG_4566.jpg */,
@@ -411,6 +417,7 @@
 				89E39EE61F5F52E6007DDD4E /* 12.jpg in Resources */,
 				89E39EFB1F5F52E6007DDD4E /* 4.jpg in Resources */,
 				89E39F051F5F52E6007DDD4E /* 35.jpg in Resources */,
+				89DDD9832008C9A200DC6C8C /* Fonz&Chels.jpg in Resources */,
 				89E39F181F5F52E6007DDD4E /* IMG_2992.jpg in Resources */,
 				89E39EE91F5F52E6007DDD4E /* 15.jpg in Resources */,
 				89E39EEF1F5F52E6007DDD4E /* 20.jpg in Resources */,
@@ -447,6 +454,7 @@
 				89E39EF31F5F52E6007DDD4E /* 24.jpg in Resources */,
 				89E39EFD1F5F52E6007DDD4E /* 6.jpg in Resources */,
 				89E39EF51F5F52E6007DDD4E /* 26.jpg in Resources */,
+				89DDD9852008CA8000DC6C8C /* Sunrise.jpg in Resources */,
 				89E39F101F5F52E6007DDD4E /* IMG_2735.JPG in Resources */,
 				89E39EEE1F5F52E6007DDD4E /* 2.jpg in Resources */,
 				89E39F061F5F52E6007DDD4E /* 36.jpg in Resources */,

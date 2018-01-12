@@ -70,3 +70,18 @@ class PhotosViewController: UICollectionViewController {
 //        navigationController?.show(detailController, sender: collectionView)
 //    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
